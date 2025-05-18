@@ -15,6 +15,7 @@ const Counter = () => {
             <button onClick={() => handleOperation(-1)}>-</button>
             <h2>count is : {count}</h2>
             <button onClick={() => handleOperation(+1)}>+</button>
+        {console.log("first commit")}
         </div>  
     )
 }
